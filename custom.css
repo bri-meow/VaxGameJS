@@ -1,40 +1,20 @@
-@import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Nunito:300,400,700);
-
-
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/2.2.1/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,700);
 /* mixins, variables, etc. */
-
-$grayMediumLight: #f1f1f1;
-
-@mixin box_sizing {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 /* universal */
-
 .link {
-  stroke-width:3px;
-}
+  stroke-width: 3px; }
 
 svg {
-  background-color: $grayMediumLight;
-
-
-}
+  background-color: #f1f1f1; }
 
 html {
-  background-color: $grayMediumLight;
-  height: 768px;
-
-}
+  background-color: #f1f1f1;
+  height: 768px; }
 
 body {
   min-width: 780px;
   min-height: 700px;
-  background-color: $grayMediumLight;
-}
+  background-color: #f1f1f1; }
 
-
-
+/*# sourceMappingURL=custom.css.map */

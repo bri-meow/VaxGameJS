@@ -1,12 +1,11 @@
 #vaxShieldText {
-  position:relative;
+  position: relative;
   font-family: "Nunito";
   font-size: 10px;
   font-weight: 300;
   color: "white";
   top: -32px;
-  right: -20px;
-}
+  right: -20px; }
 
 .vaccineDepressedState {
   position: absolute;
@@ -15,76 +14,69 @@
   background: #77a989;
   width: 75px;
   height: 75px;
-  visibility:hidden;
-}
+  visibility: hidden; }
 
 .vaccineCounterText {
-  position:absolute;
+  position: absolute;
   top: 54px;
   right: 37px;
   font-family: "Nunito";
   font-size: 16px;
   font-weight: 300;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 #vaxShieldIcon {
   position: relative;
-  width:85px;
-  height:50px;
+  width: 85px;
+  height: 50px;
   right: -2px;
-  top: -40px;
-}
+  top: -40px; }
 
 .actionVax {
   cursor: pointer;
   background: #85bc99;
-  position:fixed;
-  float:right;
+  position: fixed;
+  float: right;
   display: inline-block;
-  width:100px;
+  width: 100px;
   height: 45px;
   padding-top: 30px;
   padding-left: 12px;
-  top:20px;
-  box-shadow:5px 7px #838383;
+  top: 20px;
+  box-shadow: 5px 7px #838383;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  visibility:hidden;
-  right:-200px;
-
-}
+  visibility: hidden;
+  right: -200px; }
 
 .actionQuarantine {
   background: #85bc99;
-  position:fixed;
-  float:right;
+  position: fixed;
+  float: right;
   display: inline-block;
-  width:115px;
+  width: 115px;
   height: 45px;
   padding-top: 30px;
   padding-left: 12px;
-  top:20px;
-  box-shadow:5px 7px #838383;
+  top: 20px;
+  box-shadow: 5px 7px #838383;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  visibility:hidden;
-  right:-200px;
-}
+  visibility: hidden;
+  right: -200px; }
 
 #quarantineText {
-  position:relative;
+  position: relative;
   font-family: "Nunito";
   font-size: 10px;
   font-weight: 300;
   color: "white";
   top: -32px;
-  right: -15px;
-}
+  right: -15px; }
 
 .quarantineDepressedState {
   position: absolute;
@@ -93,26 +85,23 @@
   background: #77a989;
   width: 75px;
   height: 75px;
-  visibility:hidden;
-}
+  visibility: hidden; }
 
 .quarantineCounterText {
-  position:absolute;
+  position: absolute;
   top: 55px;
   right: 6px;
   font-family: "Nunito";
   font-size: 16px;
   font-weight: 300;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 #quarantineIcon {
   position: relative;
-  width:85px;
-  height:50px;
+  width: 85px;
+  height: 50px;
   right: -2px;
-  top: -32px;
-}
+  top: -32px; }
 
 .menuItemNormal {
   position: relative;
@@ -125,8 +114,7 @@
   padding-top: 4px;
   padding-right: 28px;
   padding-left: 28px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .menuItemBold {
   position: relative;
@@ -139,8 +127,7 @@
   padding-top: 4px;
   padding-right: 22px;
   padding-left: 22px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .lessonHead {
   position: absolute;
@@ -151,8 +138,7 @@
   font-size: 10px;
   font-family: "Nunito";
   font-weight: 300;
-  fill: #ffffff;
-}
+  fill: #ffffff; }
 
 .gameHead {
   position: absolute;
@@ -162,128 +148,116 @@
   font-size: 10px;
   font-family: "Nunito";
   font-weight: 300;
-  fill: #ffffff;
-}
+  fill: #ffffff; }
 
 .stepwiseNavBar {
-  position:relative;
+  position: relative;
   background: #85bc99;
-  float:right;
+  float: right;
   color: "white";
-  width:500px;
+  width: 500px;
   height: 45px;
   top: -75px;
   padding-top: 30px;
   padding-left: 12px;
   text-align: center;
-  right:-5px;
+  right: -5px;
   visibility: visible;
   display: inline;
-  box-shadow:5px 7px #838383;
+  box-shadow: 5px 7px #838383;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
+  transition-duration: 0.5s; }
 
 .stepwiseNavSVG {
   position: relative;
   top: -10px;
   padding: 5px;
-  margin: 0px;
-}
+  margin: 0px; }
 
 .menuBox {
-  position:relative;
+  position: relative;
   background: #85bc99;
-  float:right;
+  float: right;
   color: "white";
-  width:550px;
+  width: 550px;
   height: 45px;
   top: -75px;
   padding-top: 30px;
   padding-left: 12px;
   text-align: center;
-  right:-1000px;
+  right: -1000px;
   visibility: visible;
   display: inline;
-  box-shadow:5px 7px #838383;
+  box-shadow: 5px 7px #838383;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
+  transition-duration: 0.5s; }
 
 .vaxLogoDiv {
-  position:relative;
+  position: relative;
   background: #85bc99;
   font-family: "Nunito";
   font-weight: 400;
   font-size: 28px;
   color: white;
-  width:125px;
+  width: 125px;
   height: 45px;
   padding-top: 30px;
   padding-left: 12px;
   text-align: center;
   visibility: hidden;
   top: 0px;
-  left:-200px;
-  box-shadow:5px 7px #838383;
+  left: -200px;
+  box-shadow: 5px 7px #838383;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
+  transition-duration: 0.5s; }
 
 .guideTextSVG {
   position: relative;
-  background: #f1f1f1; /* Old browsers */
-  background: -moz-linear-gradient(top, #f1f1f1 3%, #ffffff 13%, #ffffff 89%, #f1f1f1 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#f1f1f1), color-stop(13%,#ffffff), color-stop(89%,#ffffff), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f1f1f1 3%,#ffffff 13%,#ffffff 89%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #f1f1f1 3%,#ffffff 13%,#ffffff 89%,#f1f1f1 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #f1f1f1 3%,#ffffff 13%,#ffffff 89%,#f1f1f1 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #f1f1f1 3%,#ffffff 13%,#ffffff 89%,#f1f1f1 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
-}
+  background: #f1f1f1;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f1f1f1 3%, #ffffff 13%, #ffffff 89%, #f1f1f1 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(3%, #f1f1f1), color-stop(13%, #ffffff), color-stop(89%, #ffffff), color-stop(100%, #f1f1f1));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f1f1f1 3%, #ffffff 13%, #ffffff 89%, #f1f1f1 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f1f1f1 3%, #ffffff 13%, #ffffff 89%, #f1f1f1 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f1f1f1 3%, #ffffff 13%, #ffffff 89%, #f1f1f1 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f1f1f1 3%, #ffffff 13%, #ffffff 89%, #f1f1f1 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#f1f1f1',GradientType=0 );
+  /* IE6-9 */ }
 
-.syringe{
-  cursor: pointer;
-}
+.syringe {
+  cursor: pointer; }
 
-.startText{
+.startText {
   top: 500px;
-  right: 200px;
+  right: 200px; }
 
-}
-
-.node{
+.node {
   stroke: #636363;
   stroke-width: 2px;
-  pointer-events: all;
-}
+  pointer-events: all; }
 
 .link {
   stroke: #636363;
-  stroke-width: 2px;
-}
+  stroke-width: 2px; }
 
-.nextArrow, .backArrow{
-  cursor: pointer;
-}
-
-.startButton {
-
-}
-
+.nextArrow, .backArrow {
+  cursor: pointer; }
 
 #homeBackground {
   min-width: 1024px;
-  min-height: 768px;
-
-}
-
+  min-height: 768px; }
 
 .homeTitle {
   position: absolute;
@@ -292,10 +266,7 @@
   left: 422px;
   font-family: "Nunito";
   font-size: 80px;
-  font-weight: 500;
-
-}
-
+  font-weight: 500; }
 
 .homeText {
   position: absolute;
@@ -304,8 +275,7 @@
   top: 315px;
   left: 305px;
   font-size: 26px;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .homeTutorial {
   position: absolute;
@@ -315,8 +285,7 @@
   left: 780px;
   font-size: 23px;
   font-weight: 500;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .homeModules {
   position: absolute;
@@ -326,8 +295,7 @@
   left: 767px;
   font-size: 23px;
   font-weight: 500;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .homeGame {
   position: absolute;
@@ -337,74 +305,48 @@
   left: 753px;
   font-size: 23px;
   font-weight: 500;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .numberUntreatedText {
   fill: #707070;
   font-family: "Nunito";
   font-size: 18px;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .uninfectedLegendText {
   fill: #707070;
   font-family: "Nunito";
   font-size: 23px;
-  font-weight: 500;
-
-}
+  font-weight: 500; }
 
 .infectedLegendText {
   fill: #707070;
   font-family: "Nunito";
   font-size: 23px;
-  font-weight: 500;
-
-}
+  font-weight: 500; }
 
 .uninfectedPercentage {
   fill: #707070;
   font-family: "Nunito";
   font-size: 30px;
-  font-weight: 700;
-
-}
+  font-weight: 700; }
 
 .networkSizeText {
   fill: #707070;
   font-family: "Nunito";
   font-size: 25px;
-  font-weight: 500;
-
-
-}
+  font-weight: 500; }
 
 .numberQuarantinedText {
   fill: #707070;
   font-family: "Nunito";
   font-size: 18px;
-  font-weight: 500;
-
-
-}
+  font-weight: 500; }
 
 .numberVaccinatedText {
   fill: #707070;
   font-family: "Nunito";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 500; }
 
-}
-
-.uninfectedLegendBox {
-
-}
-
-
-.infectedLegendBox {
-
-}
-
-
-
+/*# sourceMappingURL=tutorial.css.map */
