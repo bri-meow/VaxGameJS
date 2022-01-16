@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="d3.v3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="application.css">
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <link rel="stylesheet" type="text/css" href="faq.css">
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <link rel="stylesheet" type="text/css" href="grid.css">
+  <link rel="stylesheet" type="text/css" href="herdImmunity.css">
+  <link rel="stylesheet" type="text/css" href="jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="scenarioSelect.css">
+  <link rel="stylesheet" type="text/css" href="scores.css">
+  <link rel="stylesheet" type="text/css" href="tutorial.css">
+
+
+</head>
+
+<body>
+  <script src="jquery-2.1.0.min.js"></script>
+  <script src="d3.v3.min.js"></script>
+  <script src="netrics.js"></script>
+  <script src="sir.js"></script>
+  <script src="jquery.cookie.js"></script>
+  <script src="footerMenu.js"></script>
+  <script src="gameMenu.js"></script>
+  <script src="game.js"></script>
+
+
+<audio id="audio">
+  <source src="pop.wav" type="audio/wav" />
+</audio>
+
+
+    <div class="actionVax" onclick=activateGameVaccinationMode()>
+      <div class="vaccineDepressedState"></div>
+      <text id = "vaxShieldText"> VACCINES </text>
+      <img id="vaxShieldIcon" src="vaxShield.svg" onclick=activateGameVaccinationMode()>
+    </div>
+
+    <div class="actionQuarantine" onclick=activateGameQuarantineMode()>
+      <div class="quarantineDepressedState"></div>
+      <text id = "quarantineText"> QUARANTINE </text>
+      <img id="quarantineIcon" src="quarantine.svg" onclick=activateGameQuarantineMode()>
+    </div>
+
+
+    <div id = "customMenuDiv" >
+
+      <div class = "customHeaderFooter" id = "customLevelHeader"> CUSTOM LEVEL </div>
+
+      <div class = "customMenuItem" id = "customNodes"> Nodes: </div>
+      <div id = "nodeSlider">  </div>
+
+      <div class = "customMenuItem" id = "customDegree"> Neighbors: </div>
+      <div id = "degreeSlider" >  </div>
+
+      <div class = "customMenuItem" id = "customVaccines"> Vaccines:  </div>
+      <div id = "vaccineSlider" >  </div>
+
+      <div class = "customMenuItem" id = "customRefusers"> Refusers:  </div>
+      <div id = "refuserSlider" >  </div>
+
+      <div class = "customMenuItem" id = "customOutbreaks"> Outbreaks:  </div>
+      <div id = "outbreakSlider" >  </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+</html>
+
